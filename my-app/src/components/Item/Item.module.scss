@@ -1,0 +1,54 @@
+.item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.item.completed {
+    background-color: #e0e0e0;
+}
+
+.itemActions {
+    margin-top: 10px;
+}
+
+.itemActions button {
+    margin-right: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+button:active {
+    background-color: #c0c0c0;
+}
+
+
+.itemActions button:first-child {
+    background-color: #ff3333;
+    color: white;
+}
+
+.itemActions button:first-child:hover {
+    background-color: #cc0000;
+}
+
+
+.itemActions button:last-child {
+    background-color: #33cc33;
+    color: white;
+}
+
+.itemActions button:last-child:hover {
+    background-color: #00b300;
+}
