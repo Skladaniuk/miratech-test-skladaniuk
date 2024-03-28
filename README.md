@@ -1,0 +1,1 @@
+# miratech-test-skladaniuk
